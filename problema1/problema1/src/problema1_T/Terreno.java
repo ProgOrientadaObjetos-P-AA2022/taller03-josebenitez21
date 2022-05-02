@@ -56,7 +56,7 @@ public class Terreno {
         return vMetroCuadrado;
     }
 
-    public double obtenerValorFactura() {
+    public double obtenerCostoTerreno() {
         return costoTerreno;
     }
 

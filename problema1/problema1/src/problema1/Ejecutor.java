@@ -33,6 +33,6 @@ public class Ejecutor {
                 + "Largo: %.2f\nValor de metro Cuadrado: %.2f\n"
                 + "Area: %.2f\n"+ "Costo terreno: %.2f\n", ter.obtenerAncho(),
                 ter.obtenerLargo(), ter.obtenerValorMetroCuadrado(),
-                ter.obtenerArea(), ter.obtenerValorFactura());
+                ter.obtenerArea(), ter.obtenerCostoTerreno());
     }
 }
