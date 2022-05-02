@@ -4,7 +4,7 @@
  */
 package problema4;
 
-import Dispositivos.Dispositivos;
+import Dispositivos.Celulares;
 
 /**
  *
@@ -18,7 +18,7 @@ public class Ejecutor {
     public static void main(String[] args) {
         // TODO code application logic here
 
-        Dispositivos dis = new Dispositivos();
+        Celulares dis = new Celulares();
         String sistema = "Android";
         double pantalla = 6.3;
         double costoI = 1200.55;

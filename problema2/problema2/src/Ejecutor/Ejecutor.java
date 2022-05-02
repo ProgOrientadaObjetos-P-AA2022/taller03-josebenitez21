@@ -18,7 +18,7 @@ public class Ejecutor {
     public static void main(String[] args) {
         // TODO code application logic here
         EquivalenteHora ti = new EquivalenteHora();
-        int horas = 5;
+        int horas = 6;
         double dias;
         int minutos;
         int segundos;
@@ -35,8 +35,10 @@ public class Ejecutor {
                           Dias: %.4f
                           Minutos: %d
                           Segundos: %d
-                          """, ti.obtenerHoras(), ti.obtenerDias(), ti.obtenerMinutos(),
-                ti.obtenerSegundos());
+                          """, ti.obtenerHoras(), 
+                          ti.obtenerDias(), 
+                          ti.obtenerMinutos(),
+                          ti.obtenerSegundos());
 
     }
 

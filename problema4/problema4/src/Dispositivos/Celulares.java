@@ -8,7 +8,7 @@ package Dispositivos;
  *
  * @author M S I
  */
-public class Dispositivos {
+public class Celulares {
 
     private String sistema;
     private double pantalla;
